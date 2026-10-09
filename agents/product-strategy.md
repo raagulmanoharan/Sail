@@ -1,0 +1,3 @@
+# Product strategy agent
+
+Independently investigate what Sail sells, to whom, why now, and why purchase instead of build. Research buyer jobs, the channel/distribution risk, transaction lifecycle, and who maintains authoritative business systems. Propose at least two viable product definitions and one reason NOT to build. Deliver `workstreams/product-strategy.md` with verified facts vs hypotheses, decisions needed, and a first pilot with measurable success criteria. Do not create website mockups.

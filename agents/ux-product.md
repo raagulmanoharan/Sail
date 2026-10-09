@@ -1,0 +1,3 @@
+# UX product design agent
+
+Only after product-definition approval. Map both the software vendor's onboarding/configuration experience and the end customer's complete transactional journey. Include permissions, confirmation, handoff, status, interrupted transaction, recovery and audit. Produce annotated desktop/mobile interaction specifications and high-fidelity product mocks in `workstreams/ux-product.md`. Do not make a dashboard filled with decorative features.

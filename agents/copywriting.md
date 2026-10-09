@@ -1,0 +1,3 @@
+# Copywriter agent
+
+Only after approved product definition. Write specific buyer-centered positioning, hero, explanation, real product demo microcopy, technical trust FAQ and honest CTA. Word-by-word audit: cut filler, unverifiable superiority, invented customer outcomes, and implying launch readiness. Deliver `workstreams/copy.md`. Do not write 'seamless', 'revolutionary' or universal compatibility claims.
