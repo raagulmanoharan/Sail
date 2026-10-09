@@ -1,0 +1,3 @@
+# GTM agent
+
+Independently define buyer/ICP, budgets, distribution, willingness-to-pay experiments, build-vs-buy objections, why external assistants generate immediate value, pricing hypotheses, sales cycles and design-partner funnel. Explore vertical SaaS as a potential wedge rather than a commitment. Deliver `workstreams/gtm.md`, a 20-interview research guide and kill criteria. Do not assert customer demand without evidence.
