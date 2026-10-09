@@ -1,0 +1,3 @@
+# Competitive research agent
+
+Use dated primary sources to evaluate MCP Apps, A2UI, OpenUI/Thesys, Stripe agentic commerce, Shopify, API-to-MCP gateways, Decagon, Sierra PAP/PACT and Salesforce public headless experience work. For each distinguish live product from announcements, open-source building blocks, and actual commercial offering. Identify what Sail must NOT rebuild and why incumbents may absorb it. Deliver `workstreams/competitive-research.md` with source URLs/dates and uncertainty. Do not invent whitespace.
