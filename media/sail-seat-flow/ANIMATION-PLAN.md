@@ -19,7 +19,7 @@ Your brand. Your live data. One complete experience inside the conversation.
 | 0–6 s | Keep the customer prompt visible. A blue token travels from phone to Sail, then airline. The return lane stays subdued. | Assistant invokes `get_seat_map`; Sail’s connector calls `GET /flights/218/seats`. |
 | 6–12 s | Green availability token returns through Sail. Reveal the branded map inside the existing phone, with available seats and disabled occupied seats. | Airline returns structured availability. Sail binds the tool result to a linked UI resource; the supported host renders it. |
 | 12–22 s | A tap selects 12A in blue. Show `12A · Window`, then an explicit tap on Confirm. Change tool and API labels in place; blue token travels outward again. Keep the seat blue during processing. | Widget invokes app-visible `select_seat` through the assistant host with booking ID BK-218 and seat 12A. Sail validates access and asks the airline to revalidate and reserve the seat through `POST /bookings/BK-218/seat`. |
-| 22–29 s | Green token returns with `{ seat: "12A", status: "confirmed" }`. Only on arrival does 12A turn green, and the same widget changes to Seat confirmed. | The airline is authoritative for the successful reservation. Sail returns the result; the host delivers it to the existing widget. |
+| 22–29 s | Green confirmation token returns for 12A. Only on arrival does 12A turn green, and the same widget changes to Seat confirmed. | The airline is authoritative for the successful reservation. Sail returns the result; the host delivers it to the existing widget. |
 | 29–32 s | Fade the explanatory plumbing; enlarge the same phone and hold the completed map. No new confirmation card, no replacement phone. | End on the actual customer experience produced by the integration. |
 
 ## Design rules
@@ -37,3 +37,7 @@ Your brand. Your live data. One complete experience inside the conversation.
 2. Response: branded seat map rendered with 12A available.
 3. Customer action: 12A selected, Confirm action, `select_seat` and booking-specific mutation.
 4. Confirmed result: airline confirms 12A; the same seat map updates.
+
+## Visual-first refinement
+
+Remove secondary protocol captions, arrow labels, seat legend and repeated explanatory paragraphs from the screen. Narration carries those details. Keep the brand names, tool/API call, seat identifier and confirmation readable. Blue outward motion and green return motion communicate direction; the same seat changing state communicates the outcome.
