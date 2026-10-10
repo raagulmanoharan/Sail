@@ -1,0 +1,7 @@
+node_modules/
+.remotion/
+build/
+renders/
+*.log
+qa/frame-*.png
+qa/repeat-*.png

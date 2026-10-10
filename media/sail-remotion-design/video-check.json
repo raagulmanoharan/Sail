@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "duration": "69.283333",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "69.291000"
+      }
+    ],
+    "format": {
+      "duration": "69.291000",
+      "size": "9887572"
+    }
+  },
+  "encodedFrames": [
+    {
+      "seconds": 2,
+      "frame": 120,
+      "meanAbsolutePixelDifference": 0.736
+    },
+    {
+      "seconds": 6,
+      "frame": 360,
+      "meanAbsolutePixelDifference": 0.8934
+    },
+    {
+      "seconds": 12,
+      "frame": 720,
+      "meanAbsolutePixelDifference": 1.1223
+    },
+    {
+      "seconds": 20.5,
+      "frame": 1230,
+      "meanAbsolutePixelDifference": 1.1434
+    },
+    {
+      "seconds": 24.2,
+      "frame": 1452,
+      "meanAbsolutePixelDifference": 0.8888
+    },
+    {
+      "seconds": 27.7,
+      "frame": 1662,
+      "meanAbsolutePixelDifference": 0.9804
+    },
+    {
+      "seconds": 34.8,
+      "frame": 2088,
+      "meanAbsolutePixelDifference": 1.088
+    },
+    {
+      "seconds": 39.5,
+      "frame": 2370,
+      "meanAbsolutePixelDifference": 1.1266
+    },
+    {
+      "seconds": 43.8,
+      "frame": 2628,
+      "meanAbsolutePixelDifference": 1.1437
+    },
+    {
+      "seconds": 47,
+      "frame": 2820,
+      "meanAbsolutePixelDifference": 1.1477
+    },
+    {
+      "seconds": 54,
+      "frame": 3240,
+      "meanAbsolutePixelDifference": 1.1631
+    },
+    {
+      "seconds": 60,
+      "frame": 3600,
+      "meanAbsolutePixelDifference": 1.0412
+    },
+    {
+      "seconds": 65.8,
+      "frame": 3948,
+      "meanAbsolutePixelDifference": 1.1781
+    },
+    {
+      "seconds": 68.5,
+      "frame": 4110,
+      "meanAbsolutePixelDifference": 1.2555
+    }
+  ],
+  "audioCorrelationWithApprovedTrack": 0.9999668043241637,
+  "fastStart": true,
+  "visualDirection": "Original dark motion-poster design; native Remotion springs/interpolation; independent of the previous fidelity port"
+}

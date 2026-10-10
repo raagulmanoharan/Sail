@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "composition": {
+    "id": "SailRemotionDesign",
+    "fps": 60,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 4157
+  },
+  "frames": [
+    2,
+    6,
+    12,
+    16.2,
+    20.5,
+    24.2,
+    26.1,
+    27.7,
+    30,
+    34.8,
+    39.5,
+    43.8,
+    47,
+    52.5,
+    54,
+    60,
+    65.8,
+    68.5,
+    44
+  ],
+  "backwardsSeekMatches": true,
+  "browserErrors": []
+}
