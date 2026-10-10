@@ -15,3 +15,7 @@ Install Node.js22+, FFmpeg and Chromium, then `npm install` and `npm run render`
 `build-final.py` assembles the reviewed opening, updated seat-map flow and closing using a deterministic master timeline. Its input snapshots are bundled in `inputs/`. Regenerating narration additionally requires Kokoro ONNX and its voice/model files; the ready-to-render audio is already included.
 
 Business endpoints and the airline name are illustrative. The linked UI/tool interaction assumes a supporting assistant host; this does not claim universal host support or production integrations. The airline system is authoritative for seat availability and successful reservation.
+
+## Composer and pronunciation correction
+
+The phone composer and home indicator are anchored to the screen, outside the animated service card. Corrected seat-grid markup prevents the assembler from changing that hierarchy. Both seat 12A voiceover passages explicitly pronounce the letter A (/eɪ/); their audio lengths and the approved timeline are preserved. `fix-seat-pronunciation.py` applies that timing-preserving correction. Runtime, layout and contrast checks pass.

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "unchangedTimeline": true,
+  "passages": [
+    {
+      "scene": "range",
+      "text": "They choose twelve A and confirm. Sail sends the request to your system, which checks availability again and reserves the seat.",
+      "originalPhonemes": "\u00f0e\u026a t\u0283\u02c8u\u02d0z tw\u02c8\u025blv \u0250 \u00e6nd k\u0259nf\u02c8\u025c\u02d0m. s\u02c8e\u026al s\u02c8\u025bndz \u00f0\u0259 \u0279\u1d7bkw\u02c8\u025bst t\u0259 j\u028a\u0279 s\u02c8\u026ast\u0259m, w\u02cc\u026at\u0283 t\u0283\u02c8\u025bks \u0250v\u02cce\u026al\u0259b\u02c8\u026al\u1d7b\u027ei \u0250\u0261\u02c8\u025bn \u00e6nd \u0279\u026az\u02c8\u025c\u02d0vz \u00f0\u0259 s\u02c8i\u02d0t.",
+      "correctedPhonemes": "\u00f0e\u026a t\u0283\u02c8u\u02d0z tw\u02c8\u025blv \u02c8e\u026a \u00e6nd k\u0259nf\u02c8\u025c\u02d0m. s\u02c8e\u026al s\u02c8\u025bndz \u00f0\u0259 \u0279\u1d7bkw\u02c8\u025bst t\u0259 j\u028a\u0279 s\u02c8\u026ast\u0259m, w\u02cc\u026at\u0283 t\u0283\u02c8\u025bks \u0250v\u02cce\u026al\u0259b\u02c8\u026al\u1d7b\u027ei \u0250\u0261\u02c8\u025bn \u00e6nd \u0279\u026az\u02c8\u025c\u02d0vz \u00f0\u0259 s\u02c8i\u02d0t.",
+      "seatLetterIPA": "\u02c8e\u026a",
+      "durationBeforeAlignment": 7.281958333333334,
+      "approvedVoiceDuration": 7.356,
+      "atempo": 0.9899345205727751
+    },
+    {
+      "scene": "close",
+      "text": "The airline confirms. Sail returns that result, and the same seat map updates. Twelve A is theirs.",
+      "originalPhonemes": "\u00f0\u026a \u02c8\u025b\u0279la\u026an k\u0259nf\u02c8\u025c\u02d0mz. s\u02c8e\u026al \u0279\u1d7bt\u02c8\u025c\u02d0nz \u00f0\u00e6t \u0279\u026az\u02c8\u028clt, \u00e6nd \u00f0\u0259 s\u02c8e\u026am s\u02c8i\u02d0t m\u02c8\u00e6p \u02c8\u028cpde\u026ats. tw\u02c8\u025blv \u0250 \u026az \u00f0\u02c8\u025b\u0279z.",
+      "correctedPhonemes": "\u00f0\u026a \u02c8\u025b\u0279la\u026an k\u0259nf\u02c8\u025c\u02d0mz. s\u02c8e\u026al \u0279\u1d7bt\u02c8\u025c\u02d0nz \u00f0\u00e6t \u0279\u026az\u02c8\u028clt, \u00e6nd \u00f0\u0259 s\u02c8e\u026am s\u02c8i\u02d0t m\u02c8\u00e6p \u02c8\u028cpde\u026ats. tw\u02c8\u025blv \u02c8e\u026a \u026az \u00f0\u02c8\u025b\u0279z.",
+      "seatLetterIPA": "\u02c8e\u026a",
+      "durationBeforeAlignment": 6.138333333333334,
+      "approvedVoiceDuration": 6.086,
+      "atempo": 1.0085989703143827
+    }
+  ]
+}
