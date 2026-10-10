@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 3 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Sail/reel/review-reel/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 47.5,
+        "selector": "div.confirmation",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 252.41,
+          "top": 662.51,
+          "right": 829.42,
+          "bottom": 1254.44,
+          "width": 577.02,
+          "height": 591.93
+        },
+        "containerSelector": "#service",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 251.41,
+          "top": 573.31,
+          "right": 830.42,
+          "bottom": 1229.22,
+          "width": 579.01,
+          "height": 655.9
+        },
+        "overflow": {
+          "bottom": 25.22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 252.41,
+          "y": 662.51,
+          "width": 577.02,
+          "height": 591.93
+        },
+        "firstSeen": 47.5,
+        "lastSeen": 47.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          47.5
+        ]
+      }
+    ],
+    "duration": 57.502,
+    "samples": [
+      5,
+      23.7,
+      30.8,
+      32,
+      34.5,
+      36.5,
+      39,
+      40.5,
+      42.4,
+      44.5,
+      45.5,
+      47.5,
+      56.7
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      5,
+      32,
+      39,
+      44.5,
+      56.7
+    ],
+    "checked": 128,
+    "passed": 128
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.143",
+    "updateAvailable": false
+  }
+}
