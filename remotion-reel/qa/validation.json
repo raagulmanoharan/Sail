@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "composition": {
+    "id": "SailReel",
+    "fps": 60,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 4157
+  },
+  "frames": [
+    5,
+    13.9,
+    23.7,
+    28.7,
+    31.18,
+    31.25,
+    32.5,
+    34,
+    39.5,
+    44,
+    49,
+    54,
+    57.8,
+    58,
+    60,
+    65.8,
+    68.5
+  ],
+  "backwardsSeekMatches": true,
+  "browserErrors": [],
+  "visualComparison": {
+    "samples": 17,
+    "maxMeanAbsoluteChannelDifference": 0.3557,
+    "exactlyMatchingSamples": 15,
+    "scale": "0\u2013255 per channel",
+    "note": "Reference captures use arbitrary seconds; Remotion uses the nearest 60fps frame. The comparison also contains minute interpolation-rounding differences."
+  },
+  "sourceType": "Native React DOM/SVG with frame-indexed motion data; no video background or GSAP runtime"
+}

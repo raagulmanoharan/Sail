@@ -1,0 +1,87 @@
+[
+  {
+    "time": 5,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 13.9,
+    "meanAbsolutePixelDifference": 0.3557,
+    "fractionPixelsOver20": 0.007553
+  },
+  {
+    "time": 23.7,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 28.7,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 31.18,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 31.25,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 32.5,
+    "meanAbsolutePixelDifference": 0.0001,
+    "fractionPixelsOver20": 1e-06
+  },
+  {
+    "time": 34,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 39.5,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 44,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 49,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 54,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 57.8,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 58,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 60,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 65.8,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  },
+  {
+    "time": 68.5,
+    "meanAbsolutePixelDifference": 0.0,
+    "fractionPixelsOver20": 0.0
+  }
+]
