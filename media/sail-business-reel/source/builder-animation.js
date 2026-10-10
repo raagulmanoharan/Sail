@@ -1,0 +1,60 @@
+const buildAt=__OPEN__, archAt=__ARCH__, brandAt=__BRAND__, connectAt=__CONNECT__, reuseAt=__REUSE__;
+tl.set('#seat-sequence .phone',{scale:1.15,x:210,y:480,transformOrigin:'50% 50%',opacity:0},0);
+tl.set('#seat-sequence .panel,#seat-sequence .routes,#seat-sequence .arrowtext,#seat-sequence .token',{opacity:0},0);
+tl.set('#seat-sequence .brand strong',{textContent:'Your brand'},0);
+tl.set('#seat-sequence .brand',{backgroundColor:'#315cf1'},0);
+tl.set('#seat-sequence .button',{textContent:'Choose a seat'},0);
+tl.set('#builder-sequence .brand-field,#builder-sequence .states-field',{opacity:0},0);
+tl.fromTo('#builder-sequence',{opacity:0},{opacity:1,duration:.55,ease:'sine.inOut',immediateRender:false},buildAt-.55);
+tl.to('#old-sequence',{opacity:0,duration:.55,ease:'sine.inOut'},buildAt-.55);
+tl.from('#builder-sequence .builder-heading',{y:25,opacity:0,duration:.65,ease:'power3.out'},buildAt-.15);
+tl.from('#builder-sequence .builder-window',{scale:.96,opacity:0,duration:.7,ease:'power2.out'},buildAt-.05);
+tl.from('#builder-sequence .template-option',{clipPath:'inset(0 100% 0 0)',duration:.5,stagger:.1,ease:'power4.out'},buildAt+.3);
+tl.to('#seat-sequence',{opacity:1,duration:.35,ease:'sine.inOut'},buildAt+.2);
+tl.to('#seat-sequence .phone',{opacity:1,duration:.55,ease:'power2.out'},buildAt+.5);
+tl.to('#builder-sequence .brand-field,#builder-sequence .states-field',{opacity:1,duration:.45,stagger:.16},brandAt+.1);
+tl.set('#builder-sequence .builder-cursor',{left:132,top:703},brandAt+.15);
+tl.fromTo('#builder-sequence .builder-cursor',{opacity:0,scale:.8},{opacity:1,scale:1,duration:.25,immediateRender:false},brandAt+.15);
+tl.to('#builder-sequence .builder-cursor',{y:20,duration:.35,ease:'power2.inOut'},brandAt+.4);
+tl.to('#builder-sequence .builder-cursor',{opacity:0,duration:.2},brandAt+.9);
+tl.to('#builder-sequence .copy-edit',{borderColor:'#315cf1',backgroundColor:'#edf0ff',duration:.45},brandAt+.8);
+tl.to('#seat-sequence .brand',{backgroundColor:'#173e58',duration:.75,ease:'power2.inOut'},brandAt+.5);
+tl.set('#seat-sequence .brand strong',{textContent:'Northstar Air'},brandAt+.65);
+tl.to('#builder-sequence .swatch-check',{opacity:1,duration:.25},brandAt+.65);
+tl.set('#seat-sequence .maphead strong',{textContent:'Choose your window seat'},brandAt+1);
+tl.set('#seat-sequence .button',{textContent:'Seat confirmed ✓',backgroundColor:'#27685d'},brandAt+2.25);
+tl.set('#seat-sequence .seatsub',{textContent:'Your window seat is reserved.'},brandAt+2.25);
+tl.to('#builder-sequence .state-confirmed',{backgroundColor:'#edf7f1',color:'#27685d',duration:.25},brandAt+2.25);
+tl.set('#seat-sequence .button',{textContent:'Checking your reservation…',backgroundColor:'#536079'},brandAt+3.05);
+tl.set('#seat-sequence .seatsub',{textContent:'We’re checking the business result.'},brandAt+3.05);
+tl.to('#builder-sequence .state-pending',{backgroundColor:'#f8f0df',color:'#735614',duration:.25},brandAt+3.05);
+// A masked panel replacement preserves the builder window and preview geometry.
+tl.fromTo('#builder-sequence .binding-field,#builder-sequence .approval-field',{opacity:0,clipPath:'inset(0 0 100% 0)'},{opacity:1,clipPath:'inset(0 0 0% 0)',duration:.6,stagger:.22,ease:'power3.out',immediateRender:false},connectAt+.1);
+tl.to('#builder-sequence .template-field,#builder-sequence .brand-field,#builder-sequence .states-field',{opacity:0,duration:.5},connectAt+.1);
+tl.to('#builder-sequence .binding-row>i',{opacity:1,duration:.3,stagger:.25},connectAt+.8);
+tl.set('#seat-sequence .button',{textContent:'Select your seat',backgroundColor:'#315cf1'},connectAt+.2);
+tl.set('#seat-sequence .seatsub',{textContent:'Choose a seat from the live map.'},connectAt+.2);
+tl.fromTo('#builder-sequence .publish-button',{scale:1},{scale:.97,duration:.15,repeat:1,yoyo:true,immediateRender:false},connectAt+3.4);
+tl.set('#builder-sequence .builder-status',{textContent:'Published v1',color:'#27685d',backgroundColor:'#edf7f1'},connectAt+3.7);
+// One mounted widget fans out into three host surfaces. No replayed phone entrance.
+tl.set('#builder-sequence h1',{textContent:'One widget. Many surfaces.',fontSize:62},reuseAt+.1);
+tl.to('#builder-sequence .builder-controls',{opacity:0,duration:.45},reuseAt+.1);
+tl.to('#seat-sequence .phone',{scale:.8,x:0,y:535,duration:1.15,ease:'power3.inOut'},reuseAt+.1);
+tl.to('#builder-sequence .distribution',{opacity:1,duration:.65,ease:'sine.inOut'},reuseAt+.3);
+tl.from('#builder-sequence .release-pill',{scale:.93,opacity:0,duration:.55,ease:'power2.out'},reuseAt+.45);
+tl.to('#builder-sequence .distribution-routes path',{strokeDashoffset:0,duration:1.1,ease:'power2.inOut'},reuseAt+1.1);
+tl.from('#builder-sequence .channel',{y:28,opacity:0,duration:.65,stagger:.18,ease:'power4.out'},reuseAt+1.65);
+// Crossfade the surrounding workspace; the exact same phone moves into architecture.
+tl.to('#builder-sequence',{opacity:0,duration:.65,ease:'sine.inOut'},archAt);
+tl.to('#seat-sequence .phone',{scale:1,x:0,y:0,duration:1.5,ease:'power3.inOut'},archAt);
+tl.to('#seat-sequence .panel,#seat-sequence .routes,#seat-sequence .arrowtext',{opacity:1,duration:.65,stagger:.08,ease:'power2.out'},archAt+.75);
+
+tl.set('#old-sequence',{display:'none'},buildAt+.01);
+
+tl.to('#seat-sequence .target',{backgroundColor:'#27685d',borderColor:'#27685d',color:'#fff',duration:.3},brandAt+2.25);
+tl.set('#seat-sequence .target',{textContent:'12A'},brandAt+2.25);
+tl.set('#seat-sequence .seatlabel',{textContent:'12A · Window'},brandAt+2.25);
+tl.to('#seat-sequence .target',{backgroundColor:'#315cf1',borderColor:'#315cf1',duration:.2},brandAt+3.05);
+tl.to('#seat-sequence .target',{backgroundColor:'#f5f8fc',borderColor:'#bdcce0',color:'#355473',duration:.3},connectAt+.2);
+tl.set('#seat-sequence .target',{textContent:'A'},connectAt+.2);
+tl.set('#seat-sequence .seatlabel',{textContent:'Window seats available'},connectAt+.2);
